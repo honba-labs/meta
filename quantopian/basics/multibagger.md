@@ -14,9 +14,10 @@ In the Indian equity markets (NSE/BSE), where nominal GDP compounds at 10–12% 
 
 Stock returns over multi-year horizons are mathematically governed by a simple relationship:
 
-$$\text{Stock Price} = \text{EPS} \times \frac{\text{P}}{\text{E}}$$
-
-$$\text{Total Return} = \left( 1 + \Delta\text{EPS} \right) \times \left( 1 + \Delta\frac{\text{P}}{\text{E}} \right) - 1$$
+> **Core Valuation Equations:**
+>
+> • **Stock Price** = EPS × (P/E)  
+> • **Total Return** = (1 + ΔEPS) × (1 + Δ(P/E)) − 1
 
 Multibaggers are generated along three distinct pathways:
 
@@ -37,9 +38,9 @@ flowchart TD
 
 ### 2.2 Engine 2: Valuation Re-Rating (P/E Expansion)
 - **Re-rating occurs when the market reclassifies the business:**
-  1. *Small-cap $\rightarrow$ Mid-cap discovery:* From un-researched, illiquid obscurity to institutional coverage (Mutual Funds, FIIs).
-  2. *B2B Commodity $\rightarrow$ Value-added / B2C Brand:* Shift from cyclical margins to pricing power.
-  3. *Uncertain governance $\rightarrow$ Institutional transparency:* Clean professional management, debt retirement, clean audits.
+  1. *Small-cap → Mid-cap discovery:* From un-researched, illiquid obscurity to institutional coverage (Mutual Funds, FIIs).
+  2. *B2B Commodity → Value-added / B2C Brand:* Shift from cyclical margins to pricing power.
+  3. *Uncertain governance → Institutional transparency:* Clean professional management, debt retirement, clean audits.
 - When earnings growth coincides with valuation re-rating, returns compound non-linearly (the *Lollapalooza effect*).
 
 ---
@@ -54,10 +55,10 @@ Formulated by Raamdeo Agrawal across 30+ annual Wealth Creation Studies, **QGLP*
 | Pillar | Focus | Indian Market Specification |
 | :--- | :--- | :--- |
 | **S — Size** | Starting Base Effect | Small-to-Mid cap (Market Cap between ₹1,000 Cr and ₹25,000 Cr). A ₹10 Lakh Cr giant cannot mathematically multiply 10x within a reasonable timeframe due to national GDP ceilings. |
-| **Q — Quality** | Business & Management | **Business:** ROCE > 20%, ROE > 18%, net debt-free balance sheet, strong free cash flow ($FCF / PAT > 70\%$).<br/>**Management:** High integrity, capital allocation discipline, promoter skin in the game ($> 50\%$ holding, zero pledge). |
-| **G — Growth** | Earnings Power | PAT CAGR $\ge 20–25\%$. Growth must be driven by market share gains, volume growth, and operating leverage rather than raw commodity price spikes. |
-| **L — Longevity** | Durability of Moat | Sustained competitive moat over 10–20 years. Favorable alignment with secular *Value Migration* (e.g., PSUs $\rightarrow$ Private Banks; Unorganized $\rightarrow$ Branded retail). |
-| **P — Price** | Margin of Safety | Favorable entry valuation. PEG ratio $\le 1.0–1.5$. **Payback Ratio** $< 1.0$ (defined as $\frac{\text{Current Market Cap}}{\text{Cumulative PAT over next 5 years}}$). |
+| **Q — Quality** | Business & Management | **Business:** ROCE > 20%, ROE > 18%, net debt-free balance sheet, strong free cash flow (FCF / PAT > 70%).<br/>**Management:** High integrity, capital allocation discipline, promoter skin in the game (> 50% holding, zero pledge). |
+| **G — Growth** | Earnings Power | PAT CAGR ≥ 20–25%. Growth must be driven by market share gains, volume growth, and operating leverage rather than raw commodity price spikes. |
+| **L — Longevity** | Durability of Moat | Sustained competitive moat over 10–20 years. Favorable alignment with secular *Value Migration* (e.g., PSUs → Private Banks; Unorganized → Branded retail). |
+| **P — Price** | Margin of Safety | Favorable entry valuation. PEG ratio ≤ 1.0–1.5. **Payback Ratio** < 1.0 (defined as: Current Market Cap / Cumulative 5-Year PAT). |
 
 ---
 
@@ -115,7 +116,7 @@ Unlike developed, mature economies where growth is incremental, India exhibits p
 3. **China+1, PLI, and Indigenization:**
    - Global supply-chain de-risking driving sustained multi-year export order books in **Specialty Chemicals**, **Active Pharmaceutical Ingredients (APIs) / CDMO**, **Electronics Manufacturing Services (EMS)**, and domestic **Defence procurement**.
 4. **Premiumization and Discretionary Consumption:**
-   - Rising per-capita GDP crossing the $2,500 threshold, unlocking non-linear inflection in discretionary spend: premium passenger vehicles, high-end real estate, branded dining/QSR, tourism, healthcare diagnostics.
+   - Rising per-capita GDP crossing the USD 2,500 threshold, unlocking non-linear inflection in discretionary spend: premium passenger vehicles, high-end real estate, branded dining/QSR, tourism, healthcare diagnostics.
 5. **Capex & Infrastructure Modernization:**
    - Massive public and private capex into national transport corridors, power grid modernization, renewable energy storage, and industrial automation.
 
@@ -140,21 +141,21 @@ flowchart TD
 
 ### Critical Forensic Red Flags & Thresholds
 1. **Operating Cash Flow (CFO) vs. Net Profit (PAT):**
-   - *Test:* Over a 3-to-5-year rolling period, Cumulative CFO must be $\ge 70–80\%$ of Cumulative PAT.
+   - *Test:* Over a 3-to-5-year rolling period, Cumulative CFO must be ≥ 70–80% of Cumulative PAT.
    - *Red Flag:* Growing PAT alongside stagnant or negative CFO indicates aggressive revenue recognition, channel stuffing, or uncollected receivables.
 2. **Debtor Days Stretch:**
-   - *Red Flag:* Trade receivables growing significantly faster than sales, or debtor days expanding by $>30$ days within 2 years.
+   - *Red Flag:* Trade receivables growing significantly faster than sales, or debtor days expanding by > 30 days within 2 years.
 3. **Capital Work-In-Progress (CWIP) as % of Gross Block:**
-   - *Red Flag:* CWIP $> 25–30\%$ of Gross Block lingering for more than 2–3 consecutive years without commercialization. Promoters often hide operational expenses in CWIP to inflate reported P&L profits.
+   - *Red Flag:* CWIP > 25–30% of Gross Block lingering for more than 2–3 consecutive years without commercialization. Promoters often hide operational expenses in CWIP to inflate reported P&L profits.
 4. **Interest Income vs. Cash Balances (The "Fake Cash" Check):**
-   - *Test:* Calculate $\text{Effective Yield} = \frac{\text{Other Income (Interest)}}{\text{Cash + Bank Balances}}$.
-   - *Red Flag:* If the yield is under $3–4\%$ while commercial bank FD rates are $6–7\%$, the cash balance may be fictitious or encumbered as collateral for unlisted promoter loans.
+   - *Test:* Effective Yield = Other Income (Interest) / (Cash + Bank Balances)
+   - *Red Flag:* If the yield is under 3–4% while commercial bank FD rates are 6–7%, the cash balance may be fictitious or encumbered as collateral for unlisted promoter loans.
 5. **Auditor Quality and Turnover:**
    - *Red Flag:* Frequent mid-term auditor resignations, especially right before Q4 annual audited statements.
-   - *Red Flag:* Auditor remuneration growing at $3\times$ the rate of revenue growth.
+   - *Red Flag:* Auditor remuneration growing at 3× the rate of revenue growth.
 6. **Promoter Pledging:**
-   - *Threshold:* Ideal = $0\%$; Maximum tolerable = $< 5\%$.
-   - *Red Flag:* Promoter pledge $> 15–20\%$ exposes the stock to catastrophic margin call liquidations during market corrections.
+   - *Threshold:* Ideal = 0%; Maximum tolerable = < 5%.
+   - *Red Flag:* Promoter pledge > 15–20% exposes the stock to catastrophic margin call liquidations during market corrections.
 
 ---
 
@@ -165,17 +166,17 @@ The general consensus among Indian fund managers and high-conviction screeners y
 | Filter Stage | Metric | Minimum Threshold | Ideal / High-Conviction |
 | :--- | :--- | :--- | :--- |
 | **Stage 1: Base Size** | Market Capitalization | ₹500 Cr – ₹25,000 Cr | ₹1,500 Cr – ₹10,000 Cr |
-| **Stage 2: Growth Engine** | Sales Growth (3Y & 5Y CAGR) | $\ge 15\%$ | $\ge 20\%$ |
-| | PAT Growth (3Y & 5Y CAGR) | $\ge 18\%$ | $\ge 25\%$ |
-| **Stage 3: Capital Efficiency** | ROCE (3Y Average) | $\ge 18\%$ | $\ge 25\%$ |
-| | ROE (3Y Average) | $\ge 15\%$ | $\ge 20\%$ |
-| | Debt to Equity Ratio | $\le 0.5$ | $\le 0.1$ (or Net Cash) |
-| **Stage 4: Cash Flow Quality** | CFO / PAT (5Y Cumulative) | $\ge 70\%$ | $\ge 85\%$ |
-| | Free Cash Flow (FCF) | Positive over 3 years | Consistently expanding |
-| **Stage 5: Governance & Float** | Promoter Holding | $\ge 50\%$ | $\ge 60\%$ |
-| | Pledged Promoter Shares | $\le 2\%$ | $0.0\%$ |
-| | Institutional Holding | $\le 25\%$ (Room for discovery) | $5\% - 15\%$ |
-| **Stage 6: Valuation Comfort** | PEG Ratio | $\le 1.5$ | $\le 1.0$ |
+| **Stage 2: Growth Engine** | Sales Growth (3Y & 5Y CAGR) | ≥ 15% | ≥ 20% |
+| **Stage 2: Growth Engine** | PAT Growth (3Y & 5Y CAGR) | ≥ 18% | ≥ 25% |
+| **Stage 3: Capital Efficiency** | ROCE (3Y Average) | ≥ 18% | ≥ 25% |
+| **Stage 3: Capital Efficiency** | ROE (3Y Average) | ≥ 15% | ≥ 20% |
+| **Stage 3: Capital Efficiency** | Debt to Equity Ratio | ≤ 0.5 | ≤ 0.1 (or Net Cash) |
+| **Stage 4: Cash Flow Quality** | CFO / PAT (5Y Cumulative) | ≥ 70% | ≥ 85% |
+| **Stage 4: Cash Flow Quality** | Free Cash Flow (FCF) | Positive over 3 years | Consistently expanding |
+| **Stage 5: Governance & Float** | Promoter Holding | ≥ 50% | ≥ 60% |
+| **Stage 5: Governance & Float** | Pledged Promoter Shares | ≤ 2% | 0.0% |
+| **Stage 5: Governance & Float** | Institutional Holding | ≤ 25% (Room for discovery) | 5% – 15% |
+| **Stage 6: Valuation Comfort** | PEG Ratio | ≤ 1.5 | ≤ 1.0 |
 
 ---
 
@@ -239,7 +240,7 @@ Do not sell merely because the stock has doubled or tripled or looks temporarily
 1. **Thesis Breakage / Loss of Moat:** The core competitive advantage erodes (e.g., disruptive technology makes product obsolete; new aggressive entrant destroys industry pricing power).
 2. **Corporate Governance Breach:** Discovery of accounting discrepancies, sudden unannounced related-party transactions, un-explained auditor resignation, or rising promoter pledge.
 3. **Capital Misallocation:** The promoter takes free cash flow earned from the high-ROCE core business and squanders it on unrelated, low-ROCE, debt-funded acquisitions.
-4. **Extreme Terminal Euphoria:** Valuation reaches irrational speculative bubbles (e.g., P/E $> 120–150\text{x}$ with slowing single-digit volume growth) where 10 years of future earnings are already priced in.
+4. **Extreme Terminal Euphoria:** Valuation reaches irrational speculative bubbles (e.g., P/E > 120–150x with slowing single-digit volume growth) where 10 years of future earnings are already priced in.
 
 ---
 
