@@ -182,8 +182,11 @@ The general consensus among Indian fund managers and high-conviction screeners y
 
 ## 7. Screener Implementations
 
-### 7.1 Screener.in Query Syntax
-Paste this query directly into [Screener.in](https://www.screener.in/create/):
+### 7.1 Screener.in Exact Query Syntax
+Paste this query directly into [Screener.in Custom Query](https://www.screener.in/create/):
+
+> **Note on Screener.in Variable Names:**  
+> Screener.in uses `Operating cash flow 3years` / `Operating cash flow 5years` for multi-year cumulative cash flows (the phrase `Cash from operations` is strictly reserved for single annual years like `Cash from operations last year`).
 
 ```sql
 Market Capitalization > 500 AND
@@ -197,11 +200,13 @@ Average return on capital employed 3Years > 18 AND
 Average return on capital employed 5Years > 18 AND
 Return on equity > 15 AND
 Debt to equity < 0.5 AND
-Cash from operations 3years >= (Net Profit 3years * 0.75) AND
+Operating cash flow 3years > 0 AND
+Cash from operations last year >= 0.75 * Net profit AND
+Free cash flow 3years > 0 AND
 Pledged percentage < 2 AND
 Promoter holding > 50 AND
-Contingent liabilities < (0.2 * Net worth) AND
-Price to Earning / (Profit growth 3Years / 100) < 1.5
+Contingent liabilities < 0.2 * Net worth AND
+PEG Ratio < 1.5
 ```
 
 ### 7.2 Honba Tier 1 Grammar Filter Query
