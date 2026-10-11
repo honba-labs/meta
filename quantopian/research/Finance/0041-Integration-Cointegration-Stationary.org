@@ -1,0 +1,37 @@
+#+AUTHOR: Prem Mallappa
+#+SETUP:
+
+* Introduction
+
+
+#+BEGIN_SRC python
+    import numpy as numpy
+    import pandas as pd
+
+    import statsmodels.api as sm
+    from statsmodels.tsa.stattools import coint, adfuller
+
+    import metplotlib.pyplot as plt
+#+END_SRC
+
+** Stationary and Non-Stationary
+
+Multiple definition exists, this one is in wide-sense: =mean= and =variance= (standard variation
+or standard deviation) are constant throught the time-series.
+In other words, if one looks at any two points in time, irrespective of distance between them,
+A commonly untested assumption in time series analysis is the stationary of the data.
+
+A stationary time-series is all drawn form same exact probability distribution, all with the same
+parameters.
+
+
+Data are stationary when the parameters of the data generating process do not change over time.
+As an example, lets consider two series, A and B. Series-A is generated from a stationary
+process with fixed parameters, Series-B is generated with parameters that change over time
+
+#+BEGIN_SRC python
+    def generate_datapoint(params:tuple(float, float)) -> str :
+        mu: flaot = params[0]
+        sigma: float = prarms[0]
+        return np.random.normal(mu, sigma)
+#+END_SRC
