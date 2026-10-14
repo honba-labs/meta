@@ -49,7 +49,7 @@ flowchart TD
     end
 
     subgraph Interface["5. Applications & Interfaces"]
-        CLI["honba-examples/screening/<br/>06_mutual_fund_screener.py"]
+        CLI["honba-examples/screening/<br/>07_mutual_fund_screener.py"]
         SIP_BT["honba-examples/mutual_funds/<br/>02_sip_backtest.py"]
         STRAT["honba-strategies/mutual_funds/<br/>(Category Rotation, Dynamic SIP)"]
         OPT["honba-examples/mutual_funds/<br/>04_portfolio_optimization.py"]
@@ -233,8 +233,8 @@ Add to `honba-examples/honba_examples/screening.py`:
   - `--holding-symbol RELIANCE` (Must hold symbol X)
   - `--max-overlap-with 120503 30.0` (Must have $<30\%$ overlap with Axis Bluechip)
 
-#### MF-4.2: Standalone CLI Tool `06_mutual_fund_screener.py`
-Create `honba-examples/screening/06_mutual_fund_screener.py` supporting:
+#### MF-4.2: Standalone CLI Tool `07_mutual_fund_screener.py`
+Create `honba-examples/screening/07_mutual_fund_screener.py` supporting:
 - Standard options: `--category`, `--plan`, `--min-aum`, `--max-aum`, `--max-ter`, `--min-alpha`, `--max-downside-capture`.
 - Equity cross-reference options: `--min-portfolio-roce`, `--holding-symbol`, `--overlap-with`.
 - Output formats: `--format {table,symbols,json,csv,plain}`.
@@ -243,7 +243,7 @@ Create `honba-examples/screening/06_mutual_fund_screener.py` supporting:
 Enable zero-diagnostic pure symbol streaming (`--format symbols`) so screened mutual funds immediately pipe into forward SIP backtesting:
 
 ```bash
-.venv/bin/python honba-examples/screening/06_mutual_fund_screener.py \
+.venv/bin/python honba-examples/screening/07_mutual_fund_screener.py \
   --category "Equity:Large & Mid Cap" \
   --min-portfolio-roce 18.0 \
   --min-alpha 2.0 \
@@ -303,4 +303,4 @@ Implement `honba-examples/mutual_funds/04_portfolio_optimization.py`:
 4. **Zero Lookahead Property**:
    - Truncated screening at date $T$ must produce identical scheme rankings and scores as an un-truncated run evaluated as-of $T$ (with 10-day portfolio disclosure buffer).
 5. **Pure Output Streaming**:
-   - `06_mutual_fund_screener.py --format symbols` must emit strictly space-separated 6-digit scheme codes to stdout with all logs routed to stderr.
+   - `07_mutual_fund_screener.py --format symbols` must emit strictly space-separated 6-digit scheme codes to stdout with all logs routed to stderr.
